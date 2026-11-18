@@ -13,7 +13,7 @@ export default function AboutPage({ perfil }: AboutPageProps) {
                 Habilidades y conocimientos
             </h3>
 
-            <ul className="about_skills">
+            <ul className="about__skills">
                 {perfil.habilidades.map((habilidad) => (
                     <li key={habilidad} className="about__skill">
                         {habilidad}

@@ -1,7 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import type { ContactProps } from "../types";
 
-export default function ContacPage({ correo }: ContactProps) {
+export default function ContactPage({ correo }: ContactProps) {
     return (
         <section className="contact" aria-labelledby="titulo-contacto">
             <div className="contact__information">
