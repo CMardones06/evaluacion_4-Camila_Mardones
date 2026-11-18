@@ -1,0 +1,46 @@
+export interface Perfil {
+    nombre: string;
+    biografia: string;
+    habilidades: string[];
+    correo: string;
+}
+
+export interface Proyecto {
+    id: string;
+    titulo: string;
+    descripcion: string;
+    tecnologias: string[];
+    imagen: string;
+    textoAlternativo: string;
+    urlRepositorio: string;
+}
+
+export interface ProyectoCardProps {
+    proyecto: Proyecto;
+}
+
+export interface HeaderProps {
+    nombre: string;
+}
+
+export interface AboutPageProps {
+    perfil: Perfil;
+}
+
+export interface FooterProps {
+    nombre: string;
+}
+
+export interface ContactProps {
+    correo: string;
+}
+
+export interface ContactFormValues {
+    nombre: string;
+    correo: string;
+    mensaje: string;
+}
+
+export type ContactFormErrors = Partial<
+    Record<keyof ContactFormValues, string>
+>;
