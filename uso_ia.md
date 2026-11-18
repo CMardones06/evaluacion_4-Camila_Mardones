@@ -41,7 +41,7 @@ La IA proporcionó comandos para clonar, configurar Vite con React y TypeScript,
 
 ### 2.3. Generación de código y contenido
 
-La herramienta propuso archivos completos y modificaciones de interfaces, datos, componentes, páginas, estilos, formulario, navegación, servicio HTTP, hook asíncrono, caché y gestión del tema. También redactó una presentación personal más amplia, categorías de habilidades, formación y objetivos. Esos textos requieren mi revisión para no atribuirme conocimientos o intereses que no me representen.
+La herramienta propuso archivos completos y modificaciones de interfaces, datos, componentes, páginas, estilos, formulario, navegación, servicio HTTP, hook asíncrono, caché y gestión del tema. También redactó una presentación personal más amplia, categorías de habilidades, formación y objetivos. 
 
 ### 2.4. Depuración y revisión
 
@@ -202,8 +202,6 @@ El PDF no contiene un informe Lighthouse ni evidencia de una prueba con lector d
 La corrección de sintaxis, una compilación exitosa y un lint limpio no prueban por sí solos fidelidad visual, contraste o funcionamiento de todos los enlaces externos. Las instrucciones de prueba recibidas de la IA se distinguen de las pruebas efectivamente documentadas.
 
 ## 6. Reflexión crítica final
-
-**Nota de revisión personal:** el texto siguiente es una propuesta redactada con IA a partir del proceso documentado. Antes de entregar esta declaración debo revisarlo y modificarlo si no representa mi experiencia. No constituye una certificación de mis conocimientos.
 
 El apoyo de la IA me permitió trabajar con ejemplos aplicados a mi portafolio y avanzar por etapas. También me mostró que incorporar archivos completos no asegura comprenderlos ni evita errores al trasladarlos al proyecto.
 
