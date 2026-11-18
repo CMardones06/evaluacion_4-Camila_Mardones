@@ -44,3 +44,8 @@ export interface ContactFormValues {
 export type ContactFormErrors = Partial<
     Record<keyof ContactFormValues, string>
 >;
+
+export interface NavigationItem {
+    ruta: string;
+    texto: string;
+}
