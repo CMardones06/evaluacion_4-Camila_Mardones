@@ -49,3 +49,23 @@ export interface NavigationItem {
     ruta: string;
     texto: string;
 }
+
+export interface GitHubRepo {
+  id: number;
+  name: string;
+  description: string | null;
+  html_url: string;
+  language: string | null;
+  stargazers_count: number;
+  updated_at: string;
+}
+
+export interface GitHubReposState {
+  data: GitHubRepo[] | null;
+  loading: boolean;
+  error: string | null;
+}
+
+export interface RepositoryCardProps {
+  repositorio: GitHubRepo;
+}
