@@ -212,6 +212,16 @@ npm run preview.
 El resultado de accesibilidad corresponde a comprobaciones
 automáticas y no equivale a una certificación completa WCAG.
 
+### Revisión manual
+
+Se comprobó:
+
+- Navegación mediante Tab y Shift+Tab, con foco visible.
+- Activación de enlaces con Enter y del botón de tema con Espacio.
+- Uso del formulario y lectura de sus mensajes de error.
+- Adaptación a un ancho de 320 px, sin desbordamiento horizontal.
+- Legibilidad de controles y contenido en ambos temas.
+
 ### Comprobaciones funcionales realizadas
 
 - Compilación de TypeScript y producción.

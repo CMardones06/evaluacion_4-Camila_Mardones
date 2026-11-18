@@ -7539,3 +7539,17 @@ Después del cierre del PDF, la estudiante aportó el documento con este mensaje
 La IA recibió el PDF, extrajo el texto de sus 134 páginas, identificó 35 pares de prompt y respuesta y redactó esta declaración con índice, descripción de aportes, ajustes, verificaciones, límites y reflexión propuesta. El registro del anexo A procede del archivo; el índice y las secciones explicativas son una nueva síntesis asistida.
 
 Esta versión no afirma incluir de forma retroactiva las respuestas posteriores a su propio cierre. Si continúo usando IA para modificar o verificar el proyecto, debo añadir esos intercambios o una versión actualizada del registro.
+
+
+## Actualización de verificaciones — 18 de noviembre de 2026
+
+Después del cierre de la conversación incluida en el PDF, ejecuté
+Lighthouse y compartí una captura con estos resultados: rendimiento 78,
+accesibilidad 100, buenas prácticas 100 y SEO 83.
+
+También confirmé las pruebas manuales de teclado y adaptación a móvil.
+La IA ayudó a interpretar los resultados y redactar su documentación.
+No se realizó una prueba con lector de pantalla.
+
+Esta actualización complementa el registro anterior, que todavía
+indicaba la auditoría Lighthouse como pendiente.
