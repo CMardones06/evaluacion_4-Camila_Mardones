@@ -1,13 +1,18 @@
+import { Link } from "react-router-dom";
 import type { FooterProps } from "../types";
 
 export default function Footer({ nombre }: FooterProps) {
-    return (
-        <footer className="footer">
-            <div className="container footer__content">
-                <p className="footer__copyright">
-                    © 2026 {nombre}. Todos los derechos reservados. 
-                </p>
-            </div>
-        </footer>
-    );
+  return (
+    <footer className="footer">
+      <div className="container footer__content">
+        <p className="footer__copyright">
+          © 2026 {nombre}. Todos los derechos reservados.
+        </p>
+
+        <Link className="footer__link" to="/">
+          Volver al inicio
+        </Link>
+      </div>
+    </footer>
+  );
 }
