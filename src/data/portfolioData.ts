@@ -6,10 +6,39 @@ import animacionImagen from "../assets/img/animacion.png";
 
 export const perfil: Perfil = {
   nombre: "Camila Mardones",
+
   biografia:
-    "Soy estudiante de Ingeniería Civil en Informática en la Universidad Católica de Temuco. Me apasionan la programación y el desarrollo de software, y busco aprender nuevas tecnologías y mejorar mis habilidades.",
-  habilidades: ["Python", "HTML", "CSS"],
+    "Soy estudiante de Ingeniería Civil en Informática en la Universidad Católica de Temuco. Durante mi formación he trabajado en proyectos de programación, desarrollo web y visualización matemática. Me interesa seguir aprendiendo cómo transformar una idea en una aplicación útil, comprender las herramientas que utilizo y mejorar a partir de la práctica.",
+
+  habilidades: [
+    {
+      categoria: "Lenguajes",
+      elementos: ["Python", "JavaScript", "TypeScript"],
+    },
+    {
+      categoria: "Desarrollo web",
+      elementos: ["HTML", "CSS", "React", "NestJS", "FastAPI"],
+    },
+    {
+      categoria: "Herramientas",
+      elementos: ["Git", "GitHub", "VS Code", "Docker"],
+    },
+  ],
+
   correo: "camila.mardones2025@alu.uct.cl",
+
+  formacion: [
+    "Ingeniería Civil en Informática — Universidad Católica de Temuco.",
+    "Formación en programación, desarrollo frontend y backend, bases de datos y redes.",
+    "Aprendizaje mediante proyectos individuales y colaborativos.",
+  ],
+
+  objetivos: [
+    "Fortalecer mis conocimientos de React y TypeScript.",
+    "Desarrollar interfaces accesibles y adaptables a distintos dispositivos.",
+    "Mejorar la integración entre frontend, APIs y bases de datos.",
+    "Mantener proyectos documentados y un flujo de trabajo ordenado con Git.",
+  ],
 };
 
 export const proyectos: Proyecto[] = [

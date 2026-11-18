@@ -1,8 +1,17 @@
+import type { ReactNode } from "react";
+
+export interface GrupoHabilidades {
+    categoria: string;
+    elementos: string[];
+}
+
 export interface Perfil {
     nombre: string;
     biografia: string;
-    habilidades: string[];
+    habilidades: GrupoHabilidades[];
     correo: string;
+    formacion: string[];
+    objetivos: string[];
 }
 
 export interface Proyecto {
@@ -68,4 +77,15 @@ export interface GitHubReposState {
 
 export interface RepositoryCardProps {
   repositorio: GitHubRepo;
+}
+
+export type Theme = "light" | "dark";
+
+export interface ThemeContextValue {
+    theme: Theme;
+    toggleTheme: () => void;
+}
+
+export interface ThemeProviderProps {
+    children: ReactNode;
 }

@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import ThemeToggle from "./ThemeToggle";
 import type { HeaderProps } from "../types";
 
 export default function Header({ nombre }: HeaderProps) {
@@ -6,7 +7,11 @@ export default function Header({ nombre }: HeaderProps) {
     <header className="header">
       <div className="container header__content">
         <h1 className="header__title">{nombre}</h1>
-        <Navbar />
+
+        <div className="header__actions">
+          <Navbar />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );
