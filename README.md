@@ -195,6 +195,23 @@ Se incorporan:
 No se declara una certificación de conformidad WCAG ni un resultado
 de Lighthouse que no haya sido medido.
 
+### Auditoría con Lighthouse
+
+Se ejecutó Lighthouse sobre la aplicación servida mediante
+npm run preview.
+
+| Categoría | Puntaje |
+|---|---:|
+| Rendimiento | 78 |
+| Accesibilidad | 100 |
+| Buenas prácticas | 100 |
+| SEO | 83 |
+
+![Resultados de Lighthouse](docs/lighthouse.png)
+
+El resultado de accesibilidad corresponde a comprobaciones
+automáticas y no equivale a una certificación completa WCAG.
+
 ### Comprobaciones funcionales realizadas
 
 - Compilación de TypeScript y producción.
